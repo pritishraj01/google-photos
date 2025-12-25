@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer vault -->
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#grad)"></rect>
+
+  <!-- Image frame -->
+  <rect x="16" y="18" width="32" height="24" rx="6" fill="white" opacity="0.9"></rect>
+
+  <!-- Mountain -->
+  <path d="M18 40L26 30L32 35L38 28L46 40H18Z" fill="#7C3AED"></path>
+
+  <!-- Sun / lock dot -->
+  <circle cx="24" cy="24" r="3" fill="#7C3AED"></circle>
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0%" stop-color="#9333EA"></stop>
+      <stop offset="100%" stop-color="#EC4899"></stop>
+    </linearGradient>
+  </defs>
+</svg>
