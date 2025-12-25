@@ -4,7 +4,7 @@ import React, { createContext, useEffect, useState } from 'react'
 export const dataContext = createContext()
 
 function UserContext({ children }) {
-    let serverUrl = "http://localhost:8000"
+    let serverUrl = "https://google-photos-server.onrender.com"
     let [userData, setUserData] = useState(null)
 
     let getme = async () => {
