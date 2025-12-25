@@ -11,7 +11,7 @@ const port=process.env.PORT
 const app=express()
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://google-photos-client.onrender.com",
     credentials:true
 }))
 app.use(express.json())
